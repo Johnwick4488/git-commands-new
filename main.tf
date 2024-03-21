@@ -2,7 +2,7 @@ data "aws_ami" "ubuntu" {
   most_recent = true
 
   filter {
-    name   = "santosh-01"
+    name   = "santosh"
     values = ["ubuntu/images/hvm-ssd/*-20.04-amd64-server-*"]
   }
 
