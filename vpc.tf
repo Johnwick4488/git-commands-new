@@ -2,7 +2,7 @@ module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
   name = "Johnwick-Subnets"
-  cidr = "172.0.0.0/21"
+  cidr = "172.0.0.0/26"
 
   azs             = ["us-east-1a", "us-east-1b"]
   private_subnets = ["172.0.0.0/24", "172.0.1.0/24"]
