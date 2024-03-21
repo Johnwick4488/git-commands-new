@@ -1,4 +1,4 @@
 variable "ec2_name" {
   type    = string
-  default = "new-instance"
+  default = "my-new-instance"
 }
